@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to HTML Basics</h1>
+    <p>Here we will be seeing how to create a basic HTML page using all of the most widely used tags.</p>
+    <div>
+        <p>First, we used the <strong>< h1></strong> tag for the heading above. Heading tags range from H1 to H6.</p>
+        <hr/>
+        <p><strong>< hr></strong> tag is used to add the horizontal line which you see. <strong>< br></strong> tag is used to add an extra line space betweeen content.</p>
+        <hr>
+        <p>The currrent text that you see has been written using a <strong>< div></strong> tag which is used to divide the written content into smaller divisions which makes it easier for mass formatting.
+        For each paragraph you see, we have used the <strong>< p></strong> tag, a.k.a paragraph tag. This adds extra space at the top and bottom of the written content.</p>
+    </div>
+    <hr>
+    <p>We use the Anchor tag - <strong>< a></strong> like <u>< a href="put link here">Type text to be visual< /a></u>. Using the attribute <strong>target="_blank"</strong> we can redirect the given link into a new tab.</p>
+    <hr>
+    <span>Another tag to separate content for better formatting is the <strong>< span></strong> tag.</span>
+    <hr>
+    <p>To format the written text visually, we use the following:
+        <ul>
+            <li>< b> or < strong> - BOLD</li>
+            <li>< i> or < em> - ITALICS</li>
+            <li>< u> - UNDERLINE</li>
+        </ul>
+    </p>
+    <hr>
+    <p>This brings us to lists. There are three types of lists: Ordered, Unordered and Description lists. Use <strong>< li></strong> for each bullet.</p>
+    <p>Below is an example of Ordered List with the types given (type is an attribute for <strong>< ol></strong>)-</p>
+    <ol>
+        <li>type = 1</li>
+        <li>type = a</li>
+        <li>type = A</li>
+        <li>type = I</li>
+        <li>type = i</li>
+    </ol>
+    <p>Below is an example of Unordered List with the types given (type is an attribute for <strong>< ul></strong>)-</p>
+    <ul>
+        <li>type = circle</li>
+        <li>type = square</li>
+    </ul>
+    <p>Below is an example of Descriptive List.(Using the <strong>< dl></strong> tag)-</p>
+    <ol>
+        <dt>Each main point is made using <strong>< dt></strong>, that is TERM.</dt>
+        <dd>Each sub-point is made using <strong>< dd></strong>, that is DETAIL.</dd>
+        <dt>This is another example of a Term.</dt>
+        <dd>This is another example of a Detail.</dd>
+    </ol>
+    <hr>
+    <p>After this, we reach tables. Tables are created using <strong>< table></strong> tag which has the following attributes:
+        <ol>
+            <li>cellspacing</li>
+            <li>cellpadding</li>
+            <li>width</li>
+            <li>height</li>
+        </ol>
+    </p>
+    <table border = '2' cellspacing = '0' cellpadding = '20' width = '400' height = '300'>
+        <tr>
+            <th>< th></th>
+            <th>("th" tags are bold by default)</th>
+        </tr>
+        <tr>
+            <td>< td></td>
+            <td>This is the tag for table data.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Use < tr> for each new table row. "colspan" and "rowspan" are two < td> attributes using which you can combine columns or rows.</td>
+        </tr>
+    </table>
+    <hr>
+    <p>At last, but not the least, we come to Forms. Forms are used to collect user information and data using the <strong>< form></strong> tag.</p>
+    <img src="/imgs/forms.png" alt="Forms image">
+    <ul>
+        <li>The <strong>"type"</strong> attribute is used to define the type of data that will be collected by the user. It's available options are:</li>
+        <ol>
+            <li>Text</li>
+            <li>Password</li>
+            <li>Radio</li>
+            <li>Checkbox</li>
+            <li>Submit</li>
+        </ol>
+        <li>There is another tag called <strong>< select></strong> which enables users to select a particular value from a drop-down list.</li>
+        <li><strong>< textarea></strong> is another tag which specifies what would be the default content of the textbox.</li>
+    </ul>
+    <hr>
+    <p>As an added note, the above image was added using the <strong>< img></strong> tag.</p>
+    <hr>
+    <a href="styling.html" target="_blank">Click here to go to the CSS Module</a>
+
+</body>
+</html>

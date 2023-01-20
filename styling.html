@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the CSS module</h1>
+    <div>
+        <p>CSS stands for Cascading Style Sheets. There are 3 ways of styling a webpage:
+        <ol>
+            <li>Inline Styling</li>
+            <li>Internal Style Sheet</li>
+            <li>External Style Sheet</li>
+        </ol>
+        We will discuss about each one at length.</p>
+    </div>
+    <div>
+        <ul>
+            <li><strong>INLINE STYLING-</strong></li>
+            <p>Inline styling, we have the <strong>style</strong> attribute. This is a universal attribute, that is, it can be used with any HTML tag.</p>
+            <img src="./imgs/style.png" alt="Styling image" width="300" height="150">
+
+            <li><strong>INTERNAL STYLE SHEET-</strong></li>
+            <p>Keeping a "style" tag instead of using the style <em>attribute</em> every single time makes the code look much neater and cleaner. This is the internal style sheet.</p>
+            <img src="./imgs/Internal Style sheet.png" alt="ISS">
+            <br/>
+            <br/>
+
+            <li><strong>EXTERNAL STYLE SHEET-</strong></li>
+            <p>The final method of styling an HTML sheet invloves the creation of another separate file called the External Style sheet using the <strong>.css</strong> extension.
+            <br>
+            To add the styles to the HTML file, the stylesheet has to be linked using the following syntax: <strong>< link rel = 'stylesheet' href='filename.css'></strong></p>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <p>Moving on, let's have a look at the <strong>Types of CSS Selectors</strong></p>
+        <dl>
+            <dt>Universal Selector</dt>
+            <dd>This is the * symbol and it is used to style all the elements present in the HTML code.</dd>
+            <br>
+            <dt>Element/Type Selectors</dt>
+            <dd>These are used to style all the elements of a particular type at once.</dd>
+            <dd>For example, the "p" tag can be used as a selector to style all "p" uses.</dd>
+            <br>
+            <dt>ID Selectors</dt>
+            <dd>They are used to style only a single element of a particular type.</dd>
+            <dd>To create an "id" (attribute) for any tag, certain naming conventions must be followed:</dd>
+            <ol>
+                <li>It can have alphanumeric characters or hyphen or underscore.</li>
+                <li>It cannot have any other special characters.</li>
+                <li>The name cannot start with a number</li>
+            </ol>
+            <dd>Each "id selector" in the CSS file is preceeded with a #.</dd>
+            <br>
+            <dt>Class Selectors</dt>
+            <dd>They are used when we want to style more than one element.</dd>
+            <dd>This is done using the "class" attribute.</dd>
+            <dd>Each "class selector" in the CSS file is preceeded with a .</dd>
+            <br>
+            <dt>Combination Selectors</dt>
+            <dd>Element Selectors that preceed a class selector. Eg: p.xyz - where "xyz" is the class name.</dd>
+            <dd>This is done when you want to group a specific type of tag along with a class.</dd>
+        </dl>
+    </div>
+    <hr>
+    <div>
+        <h3>Time to learn about Pixels</h2>
+        It is basically a length unit and are the smallest units on a screen that can be given a colour.
+        <br>
+        <strong>Logical Resolution:</strong> It is the term used to define the number of CSS pixels a screen holds when dealing with Web development.
+        <ul>
+            Methods of defining length units in CSS are:
+            <li>
+                px - pixels
+            </li>
+            <li>
+                % - percentage
+            </li>
+            <li>
+                em
+            </li>
+            <li>rem - relative em</li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h3>Colours</h3>
+        The property to add colour is "color".
+        <br>
+        Using RGB, we can define the intensities (between 0 and 255) of Red, Green and Blue to get any colour that we want.
+        <br>
+        Here are a few RGB values of some widely sed common colours.
+        <br>
+        <img src="./imgs/colours (RGB).png" alt="RGB colours list" width = '300' height = '200'>
+        <br>
+        The other method of specifying RGB values is using Hexadecimal colours. The list for the same is given below:
+        <img src="./imgs/colours (hex).png" alt="Hex Colour codes" width = '300' height = '200'>
+    </div>
+    <hr>
+    <div>
+        <p>Let's now discuss about some CSS properties:</p>
+        <ol>
+            <li class="a">
+                <strong>Colour-</strong> This is set using the "color:" property.
+            </li>
+            <li class="b">
+                <strong>Background Colour-</strong> This is set using the "background-color:" property.
+            </li>
+            <li class="c">
+                <strong>Font Family-</strong> This is used to specify a font type to a text using "font-family:".
+                <ul>
+                    <li>Choose only those fonts that are supported by the browser.</li>
+                    <li>
+                        Different browsers support different font types, so choose a font-family that is supported by all the browsers.
+                    </li>
+                </ul>
+                <p>The solution to the unavailibility of fonts can be solved by <a href="https://fonts.google.com/" target="_blank">Google fonts.</a></p>
+            </li>
+            <li class="d"><strong>Font Size-</strong>
+                This is used to specify the font size of a text using "font-size:"
+            </li>
+            <li class="e">
+                <strong>Font Weight-</strong> This is used to specify a bold text using "font-weight:"
+            </li>
+            <li class="f">
+                <strong>Font Style-</strong> This is used to specify an italic text using "font-style:"
+            </li>
+            <li class="g">
+                <strong>Text Decoration-</strong> This is used to add or remove an underline from a text using "text-decoration:".
+            </li>
+            <li class="h">
+                <strong>Text Alignment-</strong>
+                This is used to specify the horizontal alignment of our text using "text-align:".
+            </li>
+            <li class="i">
+                <strong>Line Height-</strong> This is used to specify the height of a text line using "line-height:".
+            </li>
+            Line height is the total height of the text block, i.e., the space above and below the text as well as the height of the text itself.
+        </ol>
+    </div>
+    <hr>
+    <div>
+        <p>
+            We will now get into the Box Model. In brief, look at the image below:
+        </p>
+        <img src="./imgs/Box Model.png" alt="Box Model diagram" width="500" height="250">
+        <p>
+            Let's discuss about a few properties associated with borders-
+            <ol>
+                <li>
+                    <strong>Border Style-</strong> It is used to specify a style to the border of an element using "border-style:". It can be:
+                    <ul class="abc">
+                        <li class="aa">Solid</li>
+                        <li class="ab">Dotted</li>
+                        <li class="ac">Dashed</li>
+                    </ul>
+                </li>
+                <li class="ad">
+                    <strong>Border Width-</strong> It is used to specify the width to the border of an element using "border-width:". The default value is 3 pixels.
+                </li>
+                <li class="ae">
+                    <strong>Boder Colour-</strong> It is used to specify the colour to the border of an element using "border-color:".
+                </li>
+                <p class="af">The single line code to add all border properties to an element is using the "border:" property.</p>
+            </ol>
+        </p>
+    </div>
+    <div>
+        <h3>
+            Padding
+        </h3>
+        <div class="padp">
+            Padding is the space between the content and the border. The padding applied to the current sample text is 10px.
+            <br>
+            To specify the padding for each side of the content, we canwrite 4 values which is read in the clockwise order starting from Top -> Right -> Bottom -> Left.
+        </div>
+        <h3>
+            Margin
+        </h3>
+        <p class="marbor">
+            It is the space around the element outside its border and is added to maintain space between adjacent elements.
+            <br>
+            To specify the margin for each side of the content, we canwrite 4 values which is read in the clockwise order starting from Top -> Right -> Bottom -> Left.
+        </p>
+    </div>
+    <hr>
+    <div>
+        <h3>
+            Display
+        </h3>
+        It is used to specify how an elemetn will align horizontally with respect to other adjacent elements.
+        <br>
+        It exists in a "property: value" pair: (block, inline, inline-block, none). 
+    </div>
+    <div>
+        <ol>
+            <li>
+                <strong>display:inline</strong>
+                <ul>
+                    <li>
+                        An element starts beside the previous element, provided the previous element allows it to sit next to it and there is enough space.
+                    </li>
+                    <li>
+                        Width and Height CSS properties do not have any effect.
+                    </li>
+                    <li>
+                        However, Margin and Padding work.
+                    </li>
+                </ul>
+            </li>
+
+        </ol>
+    </div>
+</body>
+</html>

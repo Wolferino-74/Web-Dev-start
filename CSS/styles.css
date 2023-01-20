@@ -1,0 +1,76 @@
+.a {
+    color: rgb(0,0,255);
+}
+
+.b {
+    background-color: rgb(255,255,0);
+}
+
+.c {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.d {
+    font-size: 20px;
+}
+
+.e {
+    font-weight: bolder;
+}
+
+.f {
+    font-style: italic;
+}
+
+.g {
+    text-decoration: underline;
+}
+
+.h {
+    text-align: center;
+}
+
+.i {
+    line-height: 50px;
+}
+
+.aa {
+    border-style: solid;
+}
+
+.ab {
+    border-style: dotted;
+}
+
+.ac {
+    border-style: dashed;
+}
+
+.abc > li {
+    margin: 10px;
+}
+
+.ad {
+    border: solid;
+    border-width: 5px;
+    margin: 10px;
+}
+
+.ae {
+    border: dashed;
+    border-color: blueviolet;
+}
+
+.af {
+    border: dotted 5px salmon;
+}
+
+.padp {
+    border: solid 3px #ff0000;
+    padding: 10px 10px 10px 10px;
+}
+
+.marbor {
+    border: solid 3px #00d5ff;
+    padding: 4px;
+}
