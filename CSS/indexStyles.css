@@ -1,0 +1,10 @@
+
+* {
+    font-family: "Comic Sans MS", cursive;
+    background-color: rgb(88, 255, 216);
+}
+
+p, div, ol, ul, a {
+    font-size: 20px;
+}
+
