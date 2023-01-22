@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.row {
+    border: solid black 1px;
+    display: block;
+    height: 20vh;
+    font-size: 0px;
+}
+
+.col {
+    display: inline-block;
+    border: solid red 1px;
+    height: 100%;
+    width: 33.33%;
+}
+
+.col2 {
+    display: inline-block;
+    border: solid blue 1px;
+    height: 100%;
+    width: 50%;
+}
+
+.subrow1 {
+    border: solid purple 1px;
+    height: 50%;
+}
+
+.subcol1 {
+    display: inline-block;
+    border: solid rgb(2, 183, 8) 1px;
+    width: 50%;
+    height: 100%;
+}
+
+.subrow2 {
+    border: solid rgb(179, 0, 255) 1px;
+    height: 33.33%;
+}
