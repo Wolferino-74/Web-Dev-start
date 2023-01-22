@@ -1,3 +1,7 @@
+div {
+    font-size: 18px;
+}
+
 .a {
     color: rgb(0,0,255);
 }
@@ -72,5 +76,5 @@
 
 .marbor {
     border: solid 3px #00d5ff;
-    padding: 4px;
+    margin: 50px;
 }
