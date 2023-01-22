@@ -193,7 +193,7 @@
         <h3>
             Display
         </h3>
-        It is used to specify how an elemetn will align horizontally with respect to other adjacent elements.
+        It is used to specify how an element will align horizontally with respect to other adjacent elements.
         <br>
         It exists in a "property: value" pair: (block, inline, inline-block, none). 
     </div>
@@ -240,9 +240,97 @@
             </li>
             <li>
                 <strong>display: none</strong>
-                
+                <ul>
+                    <li>
+                        This is used when you do not want to display a particular element.
+                    </li>
+                </ul>
             </li>
         </ol>
+    </div>
+    <hr>
+    <div>
+        <h3>Some more interesting CSS Properties</h3>
+        <ol>
+            <li>
+                <strong>Position</strong>
+            </li>
+            <ul>
+                <li>
+                    It helps us move HTML elements from their existing positions.
+                </li>
+                <li>
+                    It has 4 values: static, relative, fixed and absolute.
+                </li>
+            </ul>
+            <br>
+            Let's discuss about each of these in detail.
+            <ol type="i">
+                <li>
+                    <strong>position:static</strong>
+                    <ul>
+                        <li>
+                            The default value for every HTML element and the term means "fixed".
+                        </li>
+                        <li>
+                            Elements that have this value cannot be moved from their position.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>position:relative</strong>
+                    <ul>
+                        <li>
+                            This helps us move an HTML element with respect to its original position.
+                        </li>
+                        <li>
+                            When the property of an element is set to be "relative", we use the next 4 properties (top, left, bottom, right) to relatively position that element.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>position:fixed</strong>
+                    <ul>
+                        <li>
+                            The element moves with respect to the browser window.
+                        </li>
+                        <li>
+                            The position of this element remains fixed even if we scroll the webpage.
+                        </li>
+                        <li>
+                            The next element present after the positioned element takes the place of the positioned element leaving no gap.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>position:absolute</strong>
+                    <ul>
+                        <li>
+                            The element moves with respect to the nearest positioned ancestor element.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <img src="./imgs/Position.png" alt="Position table" width="600" height="350">
+            <li>
+                <strong>Z-index</strong>
+            </li>
+            <ul>
+                <li>
+                    It is used to position an element along the z axis.
+                </li>
+                <li>
+                    It is used mainly when there are overlapping elements and we want to expicitly put one element over the other.
+                </li>
+                <li>
+                    Higher the z-index value of an element, the closer it is to us.
+                </li>
+            </ul>
+        </ol>
+    </div>
+    <hr>
+    <div>
+        
     </div>
 </body>
 </html>
