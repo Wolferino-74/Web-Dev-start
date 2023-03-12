@@ -18,7 +18,7 @@
         </ol>
         We will discuss about each one at length.</p>
     </div>
-    <div>
+    <div>           <!--Types of styling-->
         <ul>
             <li><strong>INLINE STYLING-</strong></li>
             <p>Inline styling, we have the <strong>style</strong> attribute. This is a universal attribute, that is, it can be used with any HTML tag.</p>
@@ -37,7 +37,7 @@
         </ul>
     </div>
     <hr>
-    <div>
+    <div>           <!--Types of CSS selectors-->
         <p>Moving on, let's have a look at the <strong>Types of CSS Selectors</strong></p>
         <dl>
             <dt>Universal Selector</dt>
@@ -68,7 +68,7 @@
         </dl>
     </div>
     <hr>
-    <div>
+    <div>           <!--Pixels-->
         <h3>Time to learn about Pixels</h2>
         It is basically a length unit and are the smallest units on a screen that can be given a colour.
         <br>
@@ -84,11 +84,19 @@
             <li>
                 em
             </li>
-            <li>rem - relative em</li>
+            <li>
+                rem - relative em
+            </li>
+            <li>
+                vh - View height
+            </li>
+            <li>
+                vw - View Width
+            </li>
         </ul>
     </div>
     <hr>
-    <div>
+    <div>           <!--Colours-->
         <h3>Colours</h3>
         The property to add colour is "color".
         <br>
@@ -99,10 +107,11 @@
         <img src="./imgs/colours (RGB).png" alt="RGB colours list" width = '300' height = '200'>
         <br>
         The other method of specifying RGB values is using Hexadecimal colours. The list for the same is given below:
+        <br>
         <img src="./imgs/colours (hex).png" alt="Hex Colour codes" width = '300' height = '200'>
     </div>
     <hr>
-    <div>
+    <div>           <!--CSS Content properties-->
         <p>Let's now discuss about some CSS properties:</p>
         <ol>
             <li class="a">
@@ -144,7 +153,7 @@
         </ol>
     </div>
     <hr>
-    <div>
+    <div>           <!--Box Model and Borders-->
         <p>
             We will now get into the Box Model. In brief, look at the image below:
         </p>
@@ -170,7 +179,8 @@
             </ol>
         </p>
     </div>
-    <div>
+    <hr>
+    <div>           <!--Padding and Margins-->
         <h3>
             Padding
         </h3>
@@ -189,7 +199,7 @@
         </p>
     </div>
     <hr>
-    <div>
+    <div>           <!--Display-->
         <h3>
             Display
         </h3>
@@ -244,10 +254,40 @@
                     </li>
                 </ul>
             </li>
+            <li>
+                <strong>display: flex</strong>
+                <ul>
+                    <li>
+                        This is used when we want to arrange child elements (Flex Items) inside the parent element (Flex Container) in a certain order.
+                    </li>
+                    <li>
+                        The <strong>flex-direction</strong> property is used to define the direction of flex items.
+                    </li>
+                    <li>Flex direction has 4 values:
+                        <ul>
+                            <li>
+                                row
+                            </li>
+                            <li>
+                                row-reverse
+                            </li>
+                            <li>
+                                column
+                            </li>
+                            <li>
+                                column-reverse
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Flexbox is explained in more detail at the end.
+                    </li>
+                </ul>
+            </li>
         </ol>
     </div>
     <hr>
-    <div>
+    <div>           <!--Position and Z-index-->
         <h3>Some more interesting CSS Properties</h3>
         <ol>
             <li>
@@ -327,8 +367,111 @@
         </ol>
     </div>
     <hr>
-    <div>
-        
+    <div>           <!--Wireframe-->
+        <h3>Ways to create a wireframe</h3>
+        <ol>
+            <li>
+                display:inline-block
+            </li>
+            <li>
+                float
+            </li>
+            <li>
+                flexbox
+            </li>
+        </ol>
+    </div>
+    <hr>
+    <div>           <!--Flexbox-->
+        <h3>Flexbox and its properties</h3>
+        <ol>
+            <li>
+                <b>flex-basis</b>
+                <ul>
+                    <li>
+                        It is applied to flex items.
+                    </li>
+                    <li>
+                        It is used to define the size of the item along the main axis.
+                    </li>
+                    <li>
+                        The default value is auto.
+                    </li>
+                    <li>
+                        It can be defined any length value
+                    </li>
+                    <li>
+                        The length value overrides the width property even if explicity defined.
+                    </li>
+                    <li>
+                        If <b>flex-basis: auto </b> and <b>width: auto</b>,then the value defined in width property is considered.
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>flex-grow</b>
+                <ul>
+                    <li>
+                        It is applied to flex items.
+                    </li>
+                    <li>
+                        Only applicable if the container has available space after placing all the flex items.
+                    </li>
+                    <li>
+                        It's default value is 0
+                    </li>
+                    <li>
+                        It causes an item to stretch beyond its specified width in proportion to other flex items as per their flex-grow values.
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>flex-shrink</b>
+                <ul>
+                    <li>
+                        It is only applied to flex items.
+                    </li>
+                    <li>
+                        Only applicable if the container has deficit space.
+                    </li>
+                    <li>
+                        It's default value is 1.
+                    </li>
+                    <li>
+                        It causes an item to shrink in proportion to other flex items as per their flex-shrink values.
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>flex-wrap</b>
+                <ul>
+                    <li>
+                        It's applied to the flex container.
+                    </li>
+                    <li>
+                        It's only applicable if the container has deficit space.
+                    </li>
+                    <li>
+                        It allows the browser to wrap the items together in another line instead of shrinking them to fit in the same line.
+                    </li>
+                    <li>
+                        It has two values: wrap and nowrap. Default is nowrap.
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>flex-flow</b>
+                <ul>
+                    <li>
+                        It is applied to the flex container.
+                    </li>
+                </ul>
+            </li>
+        </ol>
     </div>
 </body>
 </html>
