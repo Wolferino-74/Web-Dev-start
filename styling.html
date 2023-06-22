@@ -167,6 +167,11 @@
                         <li class="aa">Solid</li>
                         <li class="ab">Dotted</li>
                         <li class="ac">Dashed</li>
+                        <li class="aad">Inset</li>
+                        <li class="aae">Outsent</li>
+                        <li class="aaf">Groove</li>
+                        <li class="aag">Ridge</li>
+                        <li class="aah">Double</li>
                     </ul>
                 </li>
                 <li class="ad">
@@ -472,6 +477,33 @@
                 </ul>
             </li>
         </ol>
+    </div>
+    <hr>
+    <div>
+        <h3>Making websites responsive</h3>
+        <p>
+            <b>Viewport:</b> It is the area of the browser window which is visible to the user.
+        </p>
+        We use <b>@media queries</b> to design a responsive website.
+        The syntax is:
+        <p>
+            @media (max-width: 600px) { <br>
+                body {                  <br>
+                    font-size: 14px;    <br>
+                }                       <br>
+                .logo {                 <br>
+                    width: 200px;       <br>
+                }
+            }
+        </p>
+        <img src="./imgs/Media.png" alt="Media Queries" width = 70%>
+
+        <p>
+            To create a device friendly web-page, it is important to add the following line of code in the <b>< head></b> tag to make the site responsive:
+            <br>
+            <br>
+            < meta name = "viewport" content="width=device-width, initial-scale=1">
+        </p>
     </div>
 </body>
 </html>

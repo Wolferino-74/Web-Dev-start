@@ -78,3 +78,23 @@ div {
     border: solid 3px #00d5ff;
     margin: 50px;
 }
+
+.aad {
+    border-style: inset;
+}
+
+.aae {
+    border-style: outset;
+}
+
+.aaf {
+    border-style: groove;
+}
+
+.aag {
+    border-style: ridge;
+}
+
+.aah {
+    border-style: double;
+}
